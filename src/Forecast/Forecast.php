@@ -26,7 +26,9 @@ class Forecast
             $request_url .= '?'. http_build_query($options);
         }
         
-        return json_decode(file_get_contents($request_url));
+        $response = json_decode(file_get_contents($request_url));
+        $response->headers = $http_response_header;
+        return $response;
     }
 
     public function get($latitude, $longitude, $time = null, $options = array())
