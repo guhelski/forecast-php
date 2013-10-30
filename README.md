@@ -51,3 +51,7 @@ var_dump($forecast->get(
  
  For more details and all available options check the [official documentation](https://developer.forecast.io/docs/v2).
  
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/guhelski/forecast-php/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
