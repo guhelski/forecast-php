@@ -14,7 +14,7 @@ Easy breezy using [Composer](http://getcomposer.org):
 ```json
 {
     "require": {
-        "guhelski/forecast-php": "dev-master"
+        "guhelski/forecast-php": "1.1.*"
     }
 }
 ```
