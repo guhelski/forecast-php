@@ -1,7 +1,7 @@
 {
     "name": "guhelski/forecast-php",
-    "description": "Drop dead simple Forecast.io API v2 wrapper in PHP",
-    "keywords": ["forecast", "forecast.io", "weather"],
+    "description": "Drop dead simple DarkSky.net API v2 wrapper in PHP",
+    "keywords": ["darksky", "darksky.net", "forecast", "forecast.io", "weather"],
     "type": "library",
     "license": "MIT",
     "authors": [
