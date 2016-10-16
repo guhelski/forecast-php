@@ -1,9 +1,9 @@
 forecast-php
 ============
 
-Drop dead simple [Forecast.io](http://forecast.io) API v2 wrapper in PHP.
+Drop dead simple ~~[Forecast.io](http://forecast.io) API v2~~ [Dark Sky](https://darksky.net) API wrapper in PHP.
 
-This lets you get from the [Forecast.io API docs](https://developer.forecast.io/docs/v2) to the code as directly as possible.
+This lets you get from the [Dark Sky API docs](https://darksky.net/dev/docs) to the code as directly as possible.
 
 PSR friendly and requires nothing. Abstractions not included.
 
@@ -11,12 +11,8 @@ Installation
 ------------
 
 Easy breezy using [Composer](http://getcomposer.org):
-```json
-{
-    "require": {
-        "guhelski/forecast-php": "1.1.*"
-    }
-}
+```
+composer require guhelski/forecast-php
 ```
 
 Usage
@@ -49,4 +45,4 @@ var_dump($forecast->get(
 );
  ```
  
- For more details and all available options check the [official documentation](https://developer.forecast.io/docs/v2).
+ For more details and all available options check the [official documentation](https://darksky.net/dev/docs).
